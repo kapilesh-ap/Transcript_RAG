@@ -1,0 +1,43 @@
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# === Build outputs ===
+dist/
+build/
+coverage/
+
+# === Environment files ===
+.env
+.env.*
+!.env.example
+
+# === Python Virtual Envs ===
+venv/
+.venv/
+env/
+ENV/
+
+# === macOS ===
+.DS_Store
+
+# === Windows ===
+Thumbs.db
+
+# === IDEs and Editors ===
+.vscode/
+.idea/
+*.swo
+*.swp
+
+# === REPL history ===
+.node_repl_history
+
+# === ESLint cache ===
+.eslintcache
+
+# === Package output ===
+*.tgz
